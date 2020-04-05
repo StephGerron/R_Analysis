@@ -1,0 +1,22 @@
+library(tidyverse)
+
+# Load MPG Data
+mecha_data <- read.csv("MechaCar_mpg.csv",stringsAsFactors = F,check.names = T)
+# Load MPG Data
+suspension_data <- read.csv("Suspension_Coil.csv",stringsAsFactors = F,check.names = T)
+
+# Multi Linear regression model
+mecha_lm <- lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD,data=mecha_data)
+summary(mecha_lm)
+# Matrix
+mecha_matrix <- as.matrix(mecha_data[,c("vehicle.length","vehicle.weight","spoiler.angle", "ground.clearance", "AWD")])
+cor(mecha_matrix)
+
+
+mecha_length<-lm(mpg ~ vehicle.length, data=mecha_data)
+summary(mecha_length)
+
+yvals <- mecha_length$coefficients['vehicle.length']*mecha_data$vehicle_length + mecha_length$coefficients['(Intercept)']
+plt <- ggplot(mecha_data,aes(x=vehicle.length,y=mpg))
+plt + geom_point() + geom_line(aes(y=yvals), color = "red")
+
