@@ -135,7 +135,7 @@ Error: unexpected '>' in ">"
 Error: unexpected symbol in "plt <- ggplot(mpg_summary, aes(x=class,y=factor(year),fill=Mean_Hwy)) mpg_summary"
 > plt + geom_tile() + labs(x="Vehicle Class",y="Vehicle Year",fill="Mean Highway (MPG)") #create heatmap with labels
 > mpg_summary <- mpg %>% group_by(class,year) %>% summarize(Mean_Hwy=mean(hwy))
-> plt <- ggplot(mpg_summary, aes(x=class,y=factor(year),fill=Mean_Hwy)) mpg_summary <- mpg %>% group_by(class,year) %>% summarize(Mean_Hwy=mean(hwy))
+>                          plt <- ggplot(mpg_summary, aes(x=class,y=factor(year),fill=Mean_Hwy)) mpg_summary <- mpg %>% group_by(class,year) %>% summarize(Mean_Hwy=mean(hwy))
 Error: unexpected symbol in "plt <- ggplot(mpg_summary, aes(x=class,y=factor(year),fill=Mean_Hwy)) mpg_summary"
 > plt + geom_tile() + labs(x="Vehicle Class",y="Vehicle Year",fill="Mean Highway (MPG)")
 > mpg_summary <- mpg %>% group_by(model,year) %>% summarize(Mean_Hwy=mean(hwy)) #create summary table
