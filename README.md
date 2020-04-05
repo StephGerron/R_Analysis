@@ -1,3 +1,7 @@
 # R_Analysis
 
-<img align="left" width="300" src="https://github.com/StephGerron/R_Analysis/blob/master/Pics/Length_Summary.JPG"><br/> 
+
+### Taking a look at the summary report below we can determine that 
+
+
+<img align="left" width="500" src="https://github.com/StephGerron/R_Analysis/blob/master/Pics/Length_Summary.JPG"><br/> 
