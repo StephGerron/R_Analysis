@@ -10,14 +10,14 @@
 
 #### Somewhat surprisingly, at least at first, ground clearance and vehicle length had more affect on MPG than other factors I previously would have given more weight to like vehicle weight or even all wheel drive (AWD). This could possibly be because a higher and larger vehicle would, by their size, affect factors like resistance while traveling down the road. 
 
-<img align="center" width="500" src="https://github.com/StephGerron/R_Analysis/blob/master/Pics/Matrix_Mecha.JPG"><br/>
+<img align="center" width="550" src="https://github.com/StephGerron/R_Analysis/blob/master/Pics/Matrix_Mecha.JPG"><br/>
 
 <br/>
 <br/>
 
 #### Below is a model looking at just vehicle length, hopefully, for further analysis and plotting.  
 
-<img align="center" width="400" src="https://github.com/StephGerron/R_Analysis/blob/master/Pics/Length_Summary.JPG"><br/> 
+<img align="center" width="450" src="https://github.com/StephGerron/R_Analysis/blob/master/Pics/Length_Summary.JPG"><br/> 
 
 <br/>
 <br/>
